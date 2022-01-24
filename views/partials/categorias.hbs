@@ -1,0 +1,15 @@
+ <!--Inicio de la seccion Categorias-->
+    <section class="categorias"> 
+        <div class="contenedor">
+            <h2 class="text-centro">Categorias</h2>
+            {{#each categoria}}
+                <a href="#">
+            <div class="cuadro-3 float-contenedor">
+                <img src="imagenes/{{this.nombre}}.jfif" alt="pizza" class="img-responsive img-redondeado">
+                <h3 class="float-text text-blanco">{{this.nombre}}</h3>
+            </div>
+            </a>
+            {{/each}}
+        </div>
+    </section>
+<!--Fin de la seccion Categorias-->

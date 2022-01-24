@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "name": "restaurant-p2-dw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Andres S. Lucero",
+  "license": "ISC",
+  "description": "Examen segunda unidad"
+}

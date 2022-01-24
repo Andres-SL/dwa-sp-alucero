@@ -1,0 +1,22 @@
+<!--Inicio de la seccion Menu comidas-->
+    <section class="menu-comidas"> 
+        <div class="contenedor">
+            <h2 class="text-centro">Nuestro Menu</h2>
+            {{#each menuItem}}
+                <div class="menu-comidas-item">
+                    <div class="img-plato">
+                        <img src="imagenes/{{this.nombre}}.jfif" alt="Menu Item" class="img-responsive ">
+                    </div>
+                    <div class="desc-plato-menu">
+                        <h4>{{this.nombre}}</h4>
+                        <p class="precio-plato">{{this.precio}}</p>
+                        <p class="desc-plato">{{this.descripcion}}</p>
+                        <br>
+                        <a href="#" class="btn btn-color">Ordenar</a>
+                    </div>
+                    <div class="Limpiar"></div>
+                </div>
+            {{/each}}
+        </div>
+    </section>    
+    <!--Fin de la seccion menu comidas-->
